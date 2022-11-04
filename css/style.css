@@ -1,0 +1,23 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:regular,500,600&display=swap);
+
+
+*, *::before,*::after{
+margin: 0;
+padding: 0;
+border: none;
+box-sizing: border-box;
+}
+html,body{
+height:100%;
+min-width: 320px;
+}
+body{
+line-height: 2;
+font-family:Poppins;
+color:rgb(116, 8, 0)
+}
+[class*="block_container"]{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
